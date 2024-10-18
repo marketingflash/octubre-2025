@@ -1,0 +1,314 @@
+:root {
+    --color-grey: #575756;
+    --color-orange: #E5521F;
+    --color-flashblue: #0C80BA;
+    font-size: 18px;
+  }
+
+.white {
+    color: #fff !important;
+}
+
+.orange {
+    color: var(--color-orange) !important;
+}
+
+.grey {
+    color: var(--color-grey) !important;
+}
+
+.flashblue {
+    color: var(--color-flashblue) !important;
+}
+
+.bold {
+    font-weight: bold !important;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Gilroy';
+}
+
+body {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background-image: url(/images/background.png);
+    /* background-position: 0px -100px; */
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
+
+.section-a {
+    color: var(--color-grey);
+    margin: 20vw;
+    margin-top: 0;
+    margin-bottom: 5vw;
+}
+
+.section-b {
+    margin: 0;
+    padding: 20vw;
+    padding-top: 5vw;
+    background: linear-gradient(
+                180deg,
+                rgb(26, 26, 26) 0%,
+                rgba(0,0,0,1) 100%
+                    );
+}
+
+.section-b p, .section-b .fecha {
+    color: #fff;
+}
+
+p {
+    margin-bottom: 0 !important;
+}
+
+img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#logo-header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6vw;
+    margin-bottom: 4vw;
+}
+
+.to-top {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    z-index: 99;
+    color: var(--color-grey);
+}
+
+.main-title {
+    color: var(--color-grey);
+    text-align: center;
+    margin-bottom: 10vw;
+    line-height: 2rem;
+}
+
+.section-title {
+    color: var(--color-orange);
+    line-height: 1.5rem;
+    font-family: 'Gilroy';
+    font-style: italic;
+    font-weight: bold;
+}
+
+.fecha {
+    color: var(--color-grey);
+    font-family: 'Gilroy';
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+}
+
+#bureou-veritas {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+}
+
+#foto1 {
+    border-radius: 20px;
+}
+
+/* Índice */
+.indice {
+    margin-bottom: 30px;
+}
+
+.indice-title {
+    font-family: 'Gilroy';
+    font-style: normal !important;
+    font-weight: bold;
+}
+
+.indice-boton {
+    background-color: var(--color-orange);
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    margin-bottom: 5px;
+}
+
+.indice-link {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 1rem;
+}
+
+/*Noticias*/
+.parall {
+    background-color: var(--color-orange);
+    width: 100%;
+    transform: skew(-20deg);
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.title-text {
+    color: white;
+    transform: skew(20deg);
+    font-family: 'Gilroy';
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 1vw;
+    margin-bottom: 0;
+}
+
+.cuerpo-noticia {
+    font-size: 1rem;
+}
+
+/* ----TIMELINE---- */
+  /* The actual timeline (the vertical ruler) */
+  .timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* The actual timeline (the vertical ruler) */
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background-color: var(--color-flashblue);
+    top: 30px;
+    bottom: 80px;
+    left: 0;
+    margin-left: -3px;
+  }
+  
+  /* Container around content */
+  .container-timeline {
+    position: relative;
+    background-color: inherit;
+    width: 100%;
+    left: 2%;
+  }
+  
+  /* The circles on the timeline */
+  .container-timeline::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: -40px;
+    margin: 10px;
+    background-color: var(--color-flashblue);
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  /* The actual content */
+  .content-timeline {
+    padding: 20px 30px;
+    position: relative;
+  }
+
+/* The actual timeline (the vertical ruler) */
+.subraya {
+    position: relative;
+    padding-bottom: 20px;
+}
+      
+/* The actual timeline (the vertical ruler) */
+.subraya::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: var(--color-flashblue);
+    top: 30px;
+    bottom: 80px;
+    left: -20vw;
+    margin-top: 10px;
+}
+
+.subraya::after {
+    content: '';
+    position: absolute;
+    width: 13px; /* Tamaño del punto */
+    height: 13px;
+    background-color: var(--color-flashblue);
+    border-radius: 50%; /* Esto crea el círculo */
+    top: 26px;
+    bottom: 80px;
+    right: 20vw;
+    margin-top: 10px;
+}
+
+iframe {
+    margin-top: 40px;
+}
+
+.footer-text {
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.footer-text, a {
+    color: var(--color-orange);
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        /* background-position: 0px -100px; */
+        background-size: 150%;
+    }
+
+    .section-a {
+        margin: 5vw;
+        margin-bottom: 1vw;
+    }
+
+    .section-b {
+        padding: 10vw;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .timeline::after {
+        bottom: 110px;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .container-timeline::after {
+        left: -2.5vw;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .container-timeline::after {
+        left: -2.8vw;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .container-timeline::after {
+        left: -30px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .container-timeline::after {
+        left: -24px;
+    }
+}

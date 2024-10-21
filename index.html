@@ -8,22 +8,27 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/pico.min.css">
     <title>Boletín mensual de comunicación interna</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
-<body>
+<body class="regular">
     <main>
+        <!-- SECCIÓN A -->
         <div class="section-a" id="top">
             <div>
                 <a class="to-top" href="#top"><h6>Volver arriba</h6></a>
             </div>
             <div class="header">
                 <img id="logo-header" src="images/logoblanco.png" alt="Grupo Flash" width="200px">
-                <h1 class="main-title">Boletín de Comunicación Interna</h1>
+                <h1 class="main-title extrabold">Boletín de Comunicación Interna</h1>
+                <img id="logos-group" src="images/logosgroup.svg" alt="Grupo Flash" width="600px">
             </div>
             <div class="indice">
                 <h4 class="indice-title">Índice</h4>
                 <div>
                     <button class="secondary indice-boton"><a class="indice-link" href="#generales">Novedades
                         generales</a></button>
+                    <button class="secondary indice-boton"><a class="indice-link" href="#equipo">Novedades
+                        de equipo</a></button>
                     <button class="secondary indice-boton"><a class="indice-link" href="#sociales">Sociales</a></button>
                     <button class="secondary indice-boton"><a class="indice-link"
                         href="#generales">Próximamente</a></button>
@@ -32,7 +37,7 @@
             <div class="timeline" id="generales">
                 <div class="container-timeline">
                     <div class="content-timeline">
-                        <h3 class="section-title">Novedades generales</h3>
+                        <h3 class="section-title bold-italic">Novedades generales</h3>
                     </div>
                 </div>
                 <div class="container-timeline">
@@ -89,14 +94,119 @@
                             <h6 class="title-text">¡Bienvenidos a Grupo Flash!</h3>
                         </div>
                         <p class="cuerpo-noticia">Las siguientes personas se incorporaron este mes:</p>
+                        <ul class="incorp">
+                            <li>
+                                <span class="fecha-small italic flashblue-bg">04.09</span>
+                                <span class="bold">Luis Emilio González</span>    
+                                <span class="li-subt">Área de Administración</span>
+                            </li>
+                            <li>
+                                <span class="fecha-small italic orange-bg">09.09</span>
+                                <span class="bold">Alejo Napoleón González</span>    
+                                <span class="li-subt">Área de Marketing</span>
+                            </li>
+                            <li>
+                                <span class="fecha-small italic yellow-bg">23.09</span>
+                                <span class="bold">María de Guadalupe Eguiazabel</span>    
+                                <span class="li-subt">Área de Marketing</span>
+                            </li>
+                            <li>
+                                <span class="fecha-small italic green-bg">30.09</span>
+                                <span class="bold">Pablo Sebastián Guibert</span>    
+                                <span class="li-subt">Jefe Comercial de Logísticas Especiales</span>
+                            </li>
+                        </ul> 
                     </div>
                 </div>
             </div>
         </div>
-        <div class="section-b" id="sociales">
-            <div class="subraya">
-                <h3 class="section-title white">Novedades sociales</h3>
-                <div class="subraya-punto"></div>
+
+        <!-- SECCIÓN B -->
+        <div class="section-b" id="equipo">
+            <div class="subraya-b">
+                <h3 class="section-title-b white bold-italic">Novedades de equipo</h3>
+            </div>
+            <div data-aos="fade-up">
+                <div class="parall-b">
+                    <h6 class="title-text-b">¡Nuevo proyecto lanzado!</h6>
+                </div>
+                <h5 class="subtitle-text bold">Investigación de mercado</h5>
+                <div style="margin-bottom: 30px;">
+                    <p class="cuerpo-noticia">
+                        Agentes de encuestas recorren las 
+                        zonas comerciales de Tucumán, 
+                        Salta y Jujuy recopilando 
+                        información acerca de las 
+                        necesidades que presentan 
+                        potenciales clientes sobre el servicio 
+                        de logística.
+                        <br/><br/>
+                        El objetivo no es solo ampliar nuestra 
+                        cartera de clientes sino también 
+                        indagar en las actualizaciones que 
+                        demanda nuestro mercado. 
+                        <br/><br/>
+                        Si bien al proyecto lo desarrolla el 
+                        área de Marketing se trata de un 
+                        trabajo colaborativo entre las áreas 
+                        de <span class="bold">Comercial, Operaciones y 
+                        Marketing</span>.
+                    </p>
+                </div>
+            </div>
+
+            <div data-aos="fade-up">
+                <div class="parall-b">
+                    <h6 class="title-text-b">Capacitaciones realizadas</h6>
+                </div>
+                <h5 class="subtitle-text bold">Curso de seguridad e higiene</h5>
+                <div style="margin-bottom: 30px;">
+                    <p class="cuerpo-noticia">
+                        El área administrativa de la empresa 
+                        llevó a cabo una capacitación en 
+                        Seguridad e Higiene para todo el 
+                        equipo.
+                        <br/><br/>
+                        La jornada incluyó información clave 
+                        para promover un entorno laboral 
+                        seguro y buenas prácticas en el día 
+                        a día. 
+                        <br/><br/>
+                        <span class="bold-italic">¡Agradecemos a todos los que 
+                        participaron!</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECCIÓN c -->
+        <div class="section-c" id="sociales">
+            <div class="subraya-c">
+                <h3 class="section-title white bold-italic">Novedades sociales</h3>
+            </div>
+            <div data-aos="fade-up">
+                <div class="parall">
+                    <h6 class="title-text">Festejamos el Día de la Madre con regalos</h6>
+                </div>
+                <div style="margin-bottom: 30px;">
+                    <p class="cuerpo-noticia">
+                        El 20 de Octubre fue el Día de la Madre, y
+                        lo festejamos junto a las mamás del equipo,
+                        con velas aromáticas de regalo.
+                    </p>
+                    <div class="row-imgs">
+                        <div class="two-imgs">
+                            <img id="diamadre1" src="images/diamadre1.png" alt="Foto">
+                        </div>
+                        <div class="two-imgs">
+                            <img id="diamadre2" src="images/diamadre2.png" alt="Foto">
+                        </div>
+                    </div>
+                    <p class="italic text-center grey">
+                        Gimena y Mariana de la sucursal de Tucumán recibiendo sus regalos
+                    </p>
+                    <!-- <img id="tarjeta" src="images/tarjeta.png" alt="Tarjeta" width="70%"> -->
+                </div>
             </div>
             <div class="parall">
                 <h6 class="title-text">¡Felicitamos a los siguientes 
@@ -133,9 +243,9 @@
             </div>
             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScuQu074_8hiDA4jbG3LJbdUaY6G2Ut0kD8_NCsWNw3s7chug/viewform?embedded=true" width="100%" height="700" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
             <footer>
-                <p class="footer-text white">Si querés incluir las novedades de tu área en el 
+                <p class="footer-text white italic">Si querés incluir las novedades de tu área en el 
                 boletín del siguiente mes, podés enviarnos un 
-                mail a <span class="footer-text orange bold" ><a href="mailto:redes@gmail.com?subject=Boletín%20Mensual">redes@gmail.com</a></span></p>
+                mail a <span class="footer-text white bold"><a href="mailto:redes@gmail.com?subject=Boletín%20Mensual">redes@gmail.com</a></span></p>
             </footer>
         </div>
     </main>

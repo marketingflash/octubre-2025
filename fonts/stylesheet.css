@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Gilroy';
+    font-family: 'Gilroy-Bold';
     src: url('fonts/Gilroy-Bold.woff2') format('woff2'),
         url('fonts/Gilroy-Bold.woff') format('woff');
     font-weight: bold;
@@ -8,7 +8,7 @@
 }
 
 @font-face {
-    font-family: 'Gilroy';
+    font-family: 'Gilroy-BoldItalic';
     src: url('fonts/Gilroy-BoldItalic.woff2') format('woff2'),
         url('fonts/Gilroy-BoldItalic.woff') format('woff');
     font-weight: bold;
@@ -17,19 +17,19 @@
 }
 
 @font-face {
-    font-family: 'Gilroy';
+    font-family: 'Gilroy-Extrabold';
     src: url('fonts/Gilroy-ExtraBold.woff2') format('woff2'),
         url('fonts/Gilroy-ExtraBold.woff') format('woff');
-    font-weight: bold;
+    font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Gilroy';
+    font-family: 'Gilroy-ExtraboldItalic';
     src: url('fonts/Gilroy-ExtraBoldItalic.woff2') format('woff2'),
         url('fonts/Gilroy-ExtraBoldItalic.woff') format('woff');
-    font-weight: bold;
+    font-weight: 400;
     font-style: italic;
     font-display: swap;
 }
@@ -52,3 +52,27 @@
     font-display: swap;
 }
 
+/* FONTSTYLES FOR HTML */
+.regular {
+    font-family: 'Gilroy';
+}
+
+.italic {
+    font-family: 'Gilroy-RegularItalic';
+}
+
+.bold {
+    font-family: 'Gilroy-Bold';
+}
+
+.bold-italic {
+    font-family: 'Gilroy-BoldItalic';
+}
+
+.extrabold {
+    font-family: 'Gilroy-Extrabold';
+}
+
+.extrabold-italic {
+    font-family: 'Gilroy-ExtraboldItalic';
+}

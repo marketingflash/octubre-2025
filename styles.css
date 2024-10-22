@@ -83,6 +83,10 @@ body {
     z-index: -2;
 }
 
+main {
+    padding-bottom: 0 !important;
+}
+
 .section-a {
     color: var(--color-grey);
     margin: 20vw;
@@ -134,6 +138,13 @@ p {
 img {
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+td {
+    background-color: transparent !important;
+    border-bottom: none !important;
+    padding: 0 !important;
+    padding-top: 0.4rem !important;
 }
 
 #logo-header {
@@ -295,9 +306,20 @@ img {
     width: 4px;
     background-color: var(--color-flashblue);
     top: 30px;
-    bottom: 80px;
+    bottom: 25px;
     left: 0;
     margin-left: -3px;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 4px;
+    left: -8px;
+    background-color: var(--color-flashblue);
+    bottom: 25px;
+    z-index: 1;
 }
   
 /* Container around content */
@@ -328,10 +350,28 @@ img {
     position: relative;
 }
 
-/* --FECHAS-- */
-.incorp li {
-    margin-top: 0.6em;
+/* -------------- */
+
+.incorp {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten cuando hay poco espacio */
+    list-style-type: none; /* Quita los bullets */
+    margin: 0;
+    padding: 0;
 }
+
+.incorp li {
+    flex: 1 1 50%; /* Hace que cada elemento ocupe el 50% del ancho, es decir, dos columnas */
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+@media (max-width: 600px) {
+    .incorp li {
+      flex: 1 1 100%; /* Hace que cada elemento ocupe el 100% del ancho, es decir, una columna */
+    }
+  }
 
 .fecha-small {
     display: inline-block;
@@ -428,12 +468,21 @@ img {
     margin: 5px;
 }
 
-#tarjeta {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-    margin-top: 2em;
+.sociales-icon1 {
+    width: 60px;
+    height: 60px;
+    margin: 10px 0;
+    background-color: var(--color-orange);
+    -webkit-mask: url(images/clap.svg) no-repeat center;
+    mask: url(images/clap.svg) no-repeat center;
+}
+
+.sociales-icon2 {
+    width: 60px;
+    height: 60px;
+    background-color: var(--color-orange);
+    -webkit-mask: url(images/heart.svg) no-repeat center;
+    mask: url(images/heart.svg) no-repeat center;
 }
 
 iframe {
@@ -441,7 +490,8 @@ iframe {
 }
 
 footer {
-    padding: 0 5vw;
+    padding: 5vw;
+    padding-bottom: 0;
 }
 
 .footer-text {
@@ -479,12 +529,6 @@ footer {
     #logos-group {
         width: 100%;
         margin-top: 7vw;
-    }
-}
-
-@media only screen and (max-width: 520px) {
-    .timeline::after {
-        bottom: 110px;
     }
 }
 

@@ -207,8 +207,17 @@ td {
   margin-bottom: 2vw;
 }
 
-#foto1 {
+#foto1, #foto2, #foto3 {
   border-radius: 20px;
+}
+
+.dot {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 5px;
 }
 
 /* Índice */

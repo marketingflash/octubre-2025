@@ -203,8 +203,13 @@ td {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 3vw;
-  margin-bottom: 2vw;
+}
+
+#cyber-logo {
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #foto1, #foto2, #foto3 {
@@ -461,7 +466,7 @@ td {
 }
 
 .two-imgs {
-  flex: 50%;
+  flex: 33%;
   padding: 5px;
 }
 
@@ -514,10 +519,9 @@ iframe {
 }
 
 footer {
-  padding: 5vw;
-  padding-bottom: 0;
+  padding: 0;
 }
-
+/* 
 .footer-text {
   text-align: center;
   font-size: 0.9rem;
@@ -526,11 +530,10 @@ footer {
 .footer-text,
 a {
   color: white;
-}
+} */
 
 #version {
   font-size: 0.8rem;
-  margin-top: 2rem;
   color: rgba(255, 255, 255, 0.5) !important;
 }
 
@@ -560,6 +563,14 @@ a {
   #logos-group {
     width: 100%;
     margin-top: 7vw;
+  }
+
+  .row-imgs {
+    margin: 0;
+  }
+
+  .two-imgs {
+    padding:2px;
   }
 
   .row-mapa {

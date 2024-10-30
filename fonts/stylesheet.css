@@ -36,17 +36,17 @@
 
 @font-face {
     font-family: 'Gilroy';
-    src: url('fonts/Gilroy-Regular.woff2') format('woff2'),
-        url('fonts/Gilroy-Regular.woff') format('woff');
+    src: url('fonts/Gilroy-Medium.woff2') format('woff2'),
+        url('fonts/Gilroy-Medium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Gilroy-RegularItalic';
-    src: url('fonts/Gilroy-RegularItalic.woff2') format('woff2'),
-        url('fonts/Gilroy-RegularItalic.woff') format('woff');
+    font-family: 'Gilroy-MediumItalic';
+    src: url('fonts/Gilroy-MediumItalic.woff2') format('woff2'),
+        url('fonts/Gilroy-MediumItalic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
@@ -58,7 +58,7 @@
 }
 
 .italic {
-    font-family: 'Gilroy-RegularItalic';
+    font-family: 'Gilroy-MediumItalic';
 }
 
 .bold {

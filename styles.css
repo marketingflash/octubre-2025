@@ -105,10 +105,10 @@ main {
 .section-b::before {
   content: "";
   position: absolute;
-  top: -55vw; /* Desplaza hacia arriba */
+  top: -60vw; /* Desplaza hacia arriba */
   left: 0;
   right: 0;
-  height: calc(100% + 55vw); /* Ajusta la altura para cubrir todo y compensar el desplazamiento */
+  height: calc(100% + 60vw); /* Ajusta la altura para cubrir todo y compensar el desplazamiento */
   background-image: url(images/background2.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -209,15 +209,6 @@ td {
 
 #foto1, #foto2, #foto3 {
   border-radius: 20px;
-}
-
-.dot {
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  background-color: white;
-  border-radius: 50%;
-  margin-right: 5px;
 }
 
 /* Índice */
@@ -480,6 +471,21 @@ td {
   margin: 5px;
 }
 
+.row-mapa {
+  display: flex;
+}
+
+.col-mapa {
+  flex: 50%;
+  padding: 20px;
+}
+
+.ubi-icon {
+  display: inline;
+  width: 15px;
+  margin: 0;
+}
+
 #diamadre1,
 #diamadre2 {
   border-radius: 15px;
@@ -554,6 +560,18 @@ a {
   #logos-group {
     width: 100%;
     margin-top: 7vw;
+  }
+
+  .row-mapa {
+    display: block;
+  }
+  
+  .col-mapa {
+    padding: 0;
+  }
+  
+  #mapa {
+    width: 70%;
   }
 }
 

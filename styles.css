@@ -470,11 +470,12 @@ td {
   padding: 5px;
 }
 
-.section-a .row-imgs {
-  margin: 0 12vw;
+.row-gerentes {
+  display: flex;
+  margin: 0 7rem;
 }
 
-.section-a .row-imgs .two-imgs {
+.two-gerentes {
   flex: 50%;
   padding: 0 20px;
 }
@@ -482,6 +483,27 @@ td {
 #javier, #ricardo {
   border-radius: 50%;
 }
+
+@media only screen and (max-width: 1100px) {
+  .row-gerentes {
+    margin: 0 3rem;
+  }
+  
+  .two-gerentes {
+    padding: 0 10px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .row-gerentes {
+    margin: 0 1rem;
+  }
+  
+  .two-gerentes {
+    padding:5px;
+  }
+}
+
 
 #encuestas1,
 #encuestas2 {

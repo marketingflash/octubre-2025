@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@glidejs/glide@^3.7.1":
+  version "3.7.1"
+  resolved "https://registry.npmjs.org/@glidejs/glide/-/glide-3.7.1.tgz"
+  integrity sha512-8he0pZpLSqTesSFYiuWdhBmtdlYSPWxfPUCKtkkiX6ZmT8UdMdmoFPtJaOwLBXv4p2JiGxqbuPdiRGGo2e/htQ==
+
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz"
@@ -232,9 +237,9 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 cross-spawn@^6.0.5:
-  version "6.0.5"
-  resolved "https://registry.npmjs.org/cross-spawn/-/cross-spawn-6.0.5.tgz"
-  integrity sha512-eTVLrBSt7fjbDygz805pMnstIs2VTBNkRm0qxZd+M7A5XDdxVRWO5MxGBXZhjY4cqLYLdtrGqRf8mBPmzwSpWQ==
+  version "6.0.6"
+  resolved "https://registry.npmjs.org/cross-spawn/-/cross-spawn-6.0.6.tgz"
+  integrity sha512-VqCUuhcd1iB+dsv8gxPttb5iZh/D0iubSP21g36KXdEuf6I5JiioesUVjpCdHV9MZRUfVFlvwtIUyPfxo5trtw==
   dependencies:
     nice-try "^1.0.4"
     path-key "^2.0.1"

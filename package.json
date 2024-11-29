@@ -66,5 +66,8 @@
   },
   "browserslist": [
     "defaults"
-  ]
+  ],
+  "dependencies": {
+    "@glidejs/glide": "^3.7.1"
+  }
 }

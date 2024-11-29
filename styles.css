@@ -180,6 +180,20 @@ td {
   line-height: 2rem;
 }
 
+.parall-mes {
+  background-color: var(--color-grey);
+  width: 260px;
+  margin: auto;
+  transform: skew(-20deg);
+  padding: 4px;
+}
+
+.parall-mes h4 {
+  transform: skew(20deg);
+  color: white;
+  margin-bottom: 0;
+}
+
 .section-title {
   color: var(--color-orange);
   line-height: 1.5rem;
@@ -526,10 +540,12 @@ td {
   margin: 0;
 }
 
-#diamadre1,
-#diamadre2 {
+#consultoria {
   border-radius: 15px;
-  margin: 5px;
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .sociales-icon1 {

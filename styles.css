@@ -65,7 +65,7 @@ ul li {
 }
 
 .text-center {
-  text-align: center;
+  text-align: center !important;
 }
 
 html {
@@ -518,28 +518,6 @@ td {
   }
 }
 
-
-#encuestas1,
-#encuestas2 {
-  border-radius: 15px;
-  margin: 5px;
-}
-
-.row-mapa {
-  display: flex;
-}
-
-.col-mapa {
-  flex: 50%;
-  padding: 20px;
-}
-
-.ubi-icon {
-  display: inline;
-  width: 15px;
-  margin: 0;
-}
-
 #consultoria {
   border-radius: 15px;
   width: 600px;
@@ -565,6 +543,15 @@ td {
   mask: url(images/heart.svg) no-repeat center;
 }
 
+#bebe {
+  width: 250px;
+  border-radius: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+}
+
 iframe {
   margin-top: 40px;
 }
@@ -584,6 +571,7 @@ a {
 } */
 
 #version {
+  margin: 30px;
   font-size: 0.8rem;
   color: rgba(255, 255, 255, 0.5) !important;
 }

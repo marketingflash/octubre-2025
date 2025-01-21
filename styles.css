@@ -105,14 +105,14 @@ main {
 .section-b::before {
   content: "";
   position: absolute;
-  top: -60vw; /* Desplaza hacia arriba */
+  top: -60vw;
   left: 0;
   right: 0;
-  height: calc(100% + 60vw); /* Ajusta la altura para cubrir todo y compensar el desplazamiento */
+  height: calc(100% + 60vw);
   background-image: url(images/background2.png);
   background-size: cover;
   background-repeat: no-repeat;
-  z-index: -1; /* Para que esté detrás del contenido */
+  z-index: -1;
 }
 
 .section-c {
@@ -126,10 +126,10 @@ main {
   background-repeat: no-repeat;
 }
 
-.section-b p,
 .section-b .fecha,
-.section-c p,
-.section-c .fecha {
+.section-b p,
+.section-c .fecha,
+.section-c p {
   color: #fff;
 }
 
@@ -142,11 +142,12 @@ img {
   margin-bottom: 20px;
 }
 
-td {
-  background-color: transparent !important;
-  border-bottom: none !important;
-  padding: 0 !important;
-  padding-top: 0.4rem !important;
+#grupoflash {
+  border-radius: 20px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #logo-header {
@@ -190,7 +191,7 @@ td {
 
 .parall-mes h4 {
   transform: skew(20deg);
-  color: white;
+  color: #fff;
   margin-bottom: 0;
 }
 
@@ -200,33 +201,22 @@ td {
 }
 
 .section-title-b {
-  color: white;
+  color: #fff;
   line-height: 1.5rem;
 }
 
 .fecha {
   color: var(--color-grey);
-  font-family: "Gilroy";
+  font-family: Gilroy;
   font-style: italic;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   margin: 0;
 }
 
-#bureou-veritas {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#cyber-logo {
-  width: 250px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#foto1, #foto2, #foto3 {
+#foto1,
+#foto2,
+#foto3 {
   border-radius: 20px;
 }
 
@@ -236,9 +226,9 @@ td {
 }
 
 .indice-title {
-  font-family: "Gilroy";
+  font-family: Gilroy;
   font-style: normal !important;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .indice-boton {
@@ -273,7 +263,7 @@ td {
 }
 
 .parall-b {
-  background-color: white;
+  background-color: #fff;
   width: 100%;
   transform: skew(-20deg);
   padding: 5px;
@@ -284,16 +274,16 @@ td {
 .title-text,
 .title-text-b {
   transform: skew(20deg);
-  font-family: "Gilroy";
+  font-family: Gilroy;
   font-style: italic;
-  font-weight: bold;
+  font-weight: 700;
   margin-left: 3vw;
   margin-right: 3vw;
   margin-bottom: 0;
 }
 
 .title-text {
-  color: white;
+  color: #fff;
 }
 
 .title-text-b {
@@ -301,7 +291,7 @@ td {
 }
 
 .subtitle-text {
-  color: white;
+  color: #fff;
   margin-top: 5px;
   margin-bottom: 5px;
   font-size: 1.3rem;
@@ -375,14 +365,14 @@ td {
 
 .incorp {
   display: flex;
-  flex-wrap: wrap; /* Permite que los elementos se ajusten cuando hay poco espacio */
-  list-style-type: none; /* Quita los bullets */
+  flex-wrap: wrap;
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
 .incorp li {
-  flex: 1 1 50%; /* Hace que cada elemento ocupe el 50% del ancho, es decir, dos columnas */
+  flex: 1 1 50%;
   box-sizing: border-box;
   padding-top: 10px;
   padding-right: 10px;
@@ -390,7 +380,7 @@ td {
 
 @media (max-width: 600px) {
   .incorp li {
-    flex: 1 1 100%; /* Hace que cada elemento ocupe el 100% del ancho, es decir, una columna */
+    flex: 1 1 100%;
   }
 }
 
@@ -398,7 +388,7 @@ td {
   display: inline-block;
   width: 3.2em;
   margin-right: 0.3em;
-  color: white !important;
+  color: #fff !important;
   text-align: center;
 }
 
@@ -421,7 +411,7 @@ td {
   position: absolute;
   width: 100%;
   height: 4px;
-  background-color: white;
+  background-color: #fff;
   top: 30px;
   bottom: 80px;
   left: -20vw;
@@ -432,10 +422,10 @@ td {
 .subraya-b::after {
   content: "";
   position: absolute;
-  width: 13px; /* Tamaño del punto */
+  width: 13px;
   height: 13px;
-  background-color: white;
-  border-radius: 50%; /* Esto crea el círculo */
+  background-color: #fff;
+  border-radius: 50%;
   top: 26px;
   bottom: 80px;
   right: 20vw;
@@ -464,10 +454,10 @@ td {
 .subraya-c::after {
   content: "";
   position: absolute;
-  width: 13px; /* Tamaño del punto */
+  width: 13px;
   height: 13px;
   background-color: var(--color-flashblue);
-  border-radius: 50%; /* Esto crea el círculo */
+  border-radius: 50%;
   top: 26px;
   bottom: 80px;
   right: 20vw;
@@ -499,17 +489,11 @@ td {
   }
 }
 
-#jujuy1, #jujuy2, #jujuy3 {
+#jujuy1,
+#jujuy2,
+#jujuy3 {
   border-radius: 15px;
   margin: 0;
-}
-
-#consultoria {
-  border-radius: 15px;
-  width: 600px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .sociales-icon1 {
@@ -545,6 +529,7 @@ iframe {
 footer {
   padding: 0;
 }
+
 /* 
 .footer-text {
   text-align: center;

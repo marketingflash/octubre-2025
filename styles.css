@@ -1,5 +1,6 @@
 :root {
   --color-grey: #575756;
+  --color-blue: #1370b6;
   --color-orange: #e5521f;
   --color-flashblue: #0c80ba;
   --color-green: #63a131;
@@ -142,23 +143,6 @@ img {
   margin-bottom: 20px;
 }
 
-#grupoflash {
-  border-radius: 5px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#deliveryexpress {
-  border-radius: 5px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 350px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
 #logo-header {
   display: block;
   margin-left: auto;
@@ -205,7 +189,7 @@ img {
 }
 
 .section-title {
-  color: var(--color-orange);
+  color: var(--color-blue);
   line-height: 1.5rem;
 }
 
@@ -223,16 +207,27 @@ img {
   margin: 0;
 }
 
-#foto1,
-#foto2,
-#foto3 {
-  border-radius: 20px;
-}
-
 #despacha {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+#grupoflash {
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#deliveryexpress {
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 /* Índice */
@@ -247,7 +242,7 @@ img {
 }
 
 .indice-boton {
-  background-color: var(--color-orange);
+  background-color: var(--color-blue);
   text-align: center;
   border: none;
   margin-bottom: 5px;
@@ -269,7 +264,7 @@ img {
 
 /*Noticias*/
 .parall {
-  background-color: var(--color-orange);
+  background-color: var(--color-blue);
   width: 100%;
   transform: skew(-20deg);
   padding: 5px;
@@ -302,7 +297,7 @@ img {
 }
 
 .title-text-b {
-  color: var(--color-orange);
+  color: var(--color-blue);
 }
 
 .subtitle-text {
@@ -502,39 +497,6 @@ img {
     margin: 0;
     margin-bottom: 20px;
   }
-}
-
-#jujuy1,
-#jujuy2,
-#jujuy3 {
-  border-radius: 15px;
-  margin: 0;
-}
-
-.sociales-icon1 {
-  width: 60px;
-  height: 60px;
-  margin: 10px 0;
-  background-color: var(--color-orange);
-  -webkit-mask: url(images/clap.svg) no-repeat center;
-  mask: url(images/clap.svg) no-repeat center;
-}
-
-.sociales-icon2 {
-  width: 60px;
-  height: 60px;
-  background-color: var(--color-orange);
-  -webkit-mask: url(images/heart.svg) no-repeat center;
-  mask: url(images/heart.svg) no-repeat center;
-}
-
-#bebe {
-  width: 250px;
-  border-radius: 15px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
 }
 
 iframe {

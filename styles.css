@@ -154,8 +154,8 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 6vw;
-  margin-bottom: 4vw;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
 }
 
 #logos-group {
@@ -218,6 +218,12 @@ img {
 #foto2,
 #foto3 {
   border-radius: 20px;
+}
+
+#despacha {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Índice */

@@ -195,55 +195,6 @@
     <script>
         AOS.init();
     </script>
-
-    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.6.0/dist/glide.min.js"></script>
-    <script>
-        var glide1 = new Glide('.glide-first', {
-                startAt: 0,
-                perView: 2,
-                peek: {
-                    before: 50, // Fixed pixel value
-                    after: 50   // Fixed pixel value
-                },
-                breakpoints: {
-                    1024: {
-                        perView: 2
-                    },
-                    600: {
-                        perView: 1,
-                        peek: {
-                            before: 20,
-                            after: 20
-                        }
-                    }
-                }
-            });
-        glide1.mount();
-
-        var glide2 = new Glide(
-            '.glide-second', {
-                startAt: 0,
-                perView: 2,
-                peek: {
-                    before: 50, // Fixed pixel value
-                    after: 50   // Fixed pixel value
-                },
-                breakpoints: {
-                    1024: {
-                        perView: 2
-                    },
-                    600: {
-                        perView: 1,
-                        peek: {
-                            before: 20,
-                            after: 20
-                        }
-                    }
-                }
-            });
-        glide2.mount();
-    </script>
-
 </body>
 
 </html>

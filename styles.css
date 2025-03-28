@@ -208,12 +208,6 @@ img {
   margin: 0;
 }
 
-#despacha {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 #grupoflash {
   border-radius: 10px;
   display: block;
@@ -221,32 +215,28 @@ img {
   margin-right: auto;
 }
 
-#logespeciales {
-  background-color: #2c2c2c;
-  border-radius: 10px;
+.two-in-row {
+  display: flex;
   width: 100%;
-  text-align: center;
-  margin: 20px 0;
 }
 
-#logespeciales img{
-  margin-left: auto;
-  margin-right: auto;
-  width: 500px;
-  margin: 5px 0;
+.tir-item {
+  display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+
 }
 
-#deliveryexpress {
-  border-radius: 5px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 350px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+#despacha-img {
+  width: 50%;
 }
 
-#fin2024 {
+#despacha-video {
+  width: 50%;
+  padding: 20px;
+}
+
+#ocho-m {
   margin: 0;
 }
 
@@ -544,6 +534,16 @@ a {
   color: rgba(255, 255, 255, 0.5) !important;
 }
 
+.section-b, a {
+  text-decoration: none;
+  color: black;
+}
+
+.section-b, a:hover {
+  text-decoration: none;
+  color: white;
+}
+
 @media only screen and (max-width: 768px) {
   body {
     background-size: 120%;
@@ -570,6 +570,24 @@ a {
   #logos-group {
     width: 100%;
     margin-top: 7vw;
+  }
+
+  .two-in-row {
+    display: block;
+  }
+  
+  .tir-item {
+    display: block;
+  }
+  
+  #despacha-img {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  #despacha-video {
+    width: 100%;
+    padding: 10px;
   }
 }
 

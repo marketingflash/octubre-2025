@@ -222,8 +222,8 @@ img {
 
 .tir-item {
   display: flex;
-flex-direction: column;
-flex-wrap: nowrap;
+  flex-direction: column;
+  flex-wrap: nowrap;
 
 }
 
@@ -238,6 +238,23 @@ flex-wrap: nowrap;
 
 #ocho-m {
   margin: 0;
+}
+
+.grid-fl {
+  display: grid !important;
+  grid-template-columns: 2fr 5fr !important;
+  grid-column-gap: 20px !important;
+}
+
+#avatar {
+  width: 100%;
+  margin: auto;
+  border-radius: 100%;
+}
+
+#firma {
+  width: 100%;
+  margin: auto;
 }
 
 /* Índice */
@@ -586,6 +603,23 @@ a {
   }
   
   #despacha-video {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .grid-fl {
+    display: block !important;
+  }
+  
+  #avatar {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #firma {
     width: 100%;
     padding: 10px;
   }

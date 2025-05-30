@@ -526,6 +526,53 @@ a {
   color: white;
 } */
 
+.redes-grid {
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 20px;
+}
+
+.redes-grid img {
+  width: 100px;
+  border-radius: 0;
+  margin: 5px 0;
+}
+
+.redes-fl {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.redes-le {
+  grid-column-start: 5;
+  grid-column-end: 8;
+}
+
+.redes-me {
+  grid-column-start: 9;
+  grid-column-end: 11;
+}
+
+.icon-fb {
+  background-color: white;
+  -webkit-mask: url(images/icon-fb.svg) no-repeat center;
+  mask: url(images/icon-fb.svg) no-repeat center;
+}
+
+.icon-ig {
+  background-color: white;
+  -webkit-mask: url(images/icon-ig.svg) no-repeat center;
+  mask: url(images/icon-ig.svg) no-repeat center;
+}
+
+.icon-lk {
+  background-color: white;
+  -webkit-mask: url(images/icon-lk.svg) no-repeat center;
+  mask: url(images/icon-lk.svg) no-repeat center;
+}
+
 #version {
   margin: 30px;
   font-size: 0.8rem;

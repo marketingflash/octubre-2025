@@ -220,43 +220,6 @@ img {
   width: 100%;
 }
 
-.tir-item {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-
-}
-
-#despacha-img {
-  width: 50%;
-}
-
-#despacha-video {
-  width: 50%;
-  padding: 20px;
-}
-
-#ocho-m {
-  margin: 0;
-}
-
-.grid-fl {
-  display: grid !important;
-  grid-template-columns: 2fr 5fr !important;
-  grid-column-gap: 20px !important;
-}
-
-#avatar {
-  width: 100%;
-  margin: auto;
-  border-radius: 100%;
-}
-
-#firma {
-  width: 100%;
-  margin: auto;
-}
-
 /* Índice */
 .indice {
   margin-bottom: 30px;
@@ -593,10 +556,6 @@ a {
     display: block;
   }
   
-  .tir-item {
-    display: block;
-  }
-  
   #despacha-img {
     width: 100%;
     padding: 10px;
@@ -605,10 +564,6 @@ a {
   #despacha-video {
     width: 100%;
     padding: 10px;
-  }
-
-  .grid-fl {
-    display: block !important;
   }
   
   #avatar {

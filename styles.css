@@ -141,6 +141,7 @@ p {
 img {
   margin-top: 20px;
   margin-bottom: 20px;
+  border-radius: 20px;
 }
 
 #logo-header {
@@ -218,6 +219,17 @@ img {
 .two-in-row {
   display: flex;
   width: 100%;
+}
+
+#capacitacion1 {
+  width: 70%;
+  height: 100%;
+  margin: 10px;
+}
+
+#capacitacion2 {
+  width: 30%;
+  margin: 10px;
 }
 
 /* Índice */
@@ -464,37 +476,43 @@ img {
   margin-top: 10px;
 }
 
-.row-imgs {
-  display: flex;
-  margin: 0 7vw;
-  margin-bottom: 20px;
-}
-
-.two-imgs {
-  flex: 33%;
-  padding: 5px;
-}
-
-@media only screen and (max-width: 1600px) {
-  .row-imgs {
-    margin: 0 5vw;
-    margin-bottom: 20px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .row-imgs {
-    margin: 0;
-    margin-bottom: 20px;
-  }
-}
-
 iframe {
   margin-top: 40px;
 }
 
 footer {
   padding: 0;
+}
+
+/* ====EXTRAS==== */
+#higiene-seguridad {
+  width: 80%;
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.evento {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.evento1, .evento2 {
+  width: 50%;
+  margin: 10px;
+}
+
+.smaller-center {
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bebe-foto {
+  width: 50%;
 }
 
 /* 
@@ -524,6 +542,7 @@ a {
   color: white;
 }
 
+/* === RESPONSIVE MOBILE === */
 @media only screen and (max-width: 768px) {
   body {
     background-size: 120%;
@@ -552,34 +571,16 @@ a {
     margin-top: 7vw;
   }
 
-  .two-in-row {
-    display: block;
-  }
-  
-  #despacha-img {
-    width: 100%;
-    padding: 10px;
-  }
-  
-  #despacha-video {
-    width: 100%;
-    padding: 10px;
-  }
-  
-  #avatar {
-    display: block;
-    width: 50%;
-    padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
+  .evento, .smaller-center {
+    width: 100% !important;
   }
 
-  #firma {
-    width: 100%;
-    padding: 10px;
+  .evento1, .evento2 {
+    margin: 20px 5px;
   }
 }
 
+/* === TIMELINE RESPONSIVE === */
 @media only screen and (max-width: 1600px) {
   .container-timeline::after {
     left: -2.5vw;

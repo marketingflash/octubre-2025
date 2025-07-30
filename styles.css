@@ -76,7 +76,7 @@ html {
 body {
   margin-left: 10vw;
   margin-right: 10vw;
-  background-image: url(images/background.png);
+  background-image: url(images/backgrounds/background.png);
   background-position: top;
   background-size: 120%;
   background-repeat: no-repeat;
@@ -110,7 +110,7 @@ main {
   left: 0;
   right: 0;
   height: calc(100% + 60vw);
-  background-image: url(images/background2.png);
+  background-image: url(images/backgrounds/background2.png);
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;
@@ -121,7 +121,7 @@ main {
   padding: 20vw;
   padding-top: 5vw;
   padding-bottom: 3vw;
-  background-image: url(images/background3.png);
+  background-image: url(images/backgrounds/background3.png);
   background-position: top;
   background-size: 100% 102%;
   background-repeat: no-repeat;
@@ -221,13 +221,13 @@ img {
   width: 100%;
 }
 
-#capacitacion1 {
+#litiolatam1 {
   width: 70%;
   height: 100%;
   margin: 10px;
 }
 
-#capacitacion2 {
+#litiolatam2 {
   width: 30%;
   margin: 10px;
 }
@@ -557,20 +557,20 @@ a {
 
 .icon-fb {
   background-color: white;
-  -webkit-mask: url(images/icon-fb.svg) no-repeat center;
-  mask: url(images/icon-fb.svg) no-repeat center;
+  -webkit-mask: url(images/redes/icon-fb.svg) no-repeat center;
+  mask: url(images/redes/icon-fb.svg) no-repeat center;
 }
 
 .icon-ig {
   background-color: white;
-  -webkit-mask: url(images/icon-ig.svg) no-repeat center;
-  mask: url(images/icon-ig.svg) no-repeat center;
+  -webkit-mask: url(images/redes/icon-ig.svg) no-repeat center;
+  mask: url(images/redes/icon-ig.svg) no-repeat center;
 }
 
 .icon-lk {
   background-color: white;
-  -webkit-mask: url(images/icon-lk.svg) no-repeat center;
-  mask: url(images/icon-lk.svg) no-repeat center;
+  -webkit-mask: url(images/redes/icon-lk.svg) no-repeat center;
+  mask: url(images/redes/icon-lk.svg) no-repeat center;
 }
 
 #version {

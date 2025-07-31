@@ -222,13 +222,13 @@ img {
 }
 
 #litiolatam1 {
-  width: 70%;
+  width: 50%;
   height: 100%;
   margin: 10px;
 }
 
 #litiolatam2 {
-  width: 30%;
+  width: 50%;
   margin: 10px;
 }
 
@@ -485,23 +485,20 @@ footer {
 }
 
 /* ====EXTRAS==== */
+#gestion {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0;
+}
+
 #higiene-seguridad {
   width: 80%;
   height: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-.evento {
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.evento1, .evento2 {
-  width: 50%;
-  margin: 10px;
 }
 
 .smaller-center {
@@ -511,10 +508,8 @@ footer {
   margin-right: auto;
 }
 
-#bebe-foto {
-  width: 50%;
-}
 
+/* ==== FOOTER / REDES ==== */
 /* 
 .footer-text {
   text-align: center;
@@ -618,12 +613,23 @@ a {
     margin-top: 7vw;
   }
 
-  .evento, .smaller-center {
-    width: 100% !important;
+  .two-in-row {
+    display: block;
+    width: 100%;
   }
 
-  .evento1, .evento2 {
-    margin: 20px 5px;
+  #litiolatam1 {
+    width: 100%;
+    margin: 5px;
+  }
+
+  #litiolatam2 {
+    width: 100%;
+    margin: 5px;
+  }
+
+  #gestion {
+    width: 100%;
   }
 }
 

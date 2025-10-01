@@ -485,12 +485,11 @@ footer {
 }
 
 /* ====EXTRAS==== */
-#gestion {
-  width: 50%;
+#powerbi {
+  width: 40%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 0;
 }
 
 #higiene-seguridad {
@@ -628,7 +627,7 @@ a {
     margin: 5px;
   }
 
-  #gestion {
+  #powerbi {
     width: 100%;
   }
 }

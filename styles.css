@@ -219,16 +219,17 @@ img {
 .two-in-row {
   display: flex;
   width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-#litiolatam1 {
-  width: 50%;
-  height: 100%;
+#ego1 {
+  width: 60%;
   margin: 10px;
 }
 
-#litiolatam2 {
-  width: 50%;
+#ego2 {
+  width: 35%;
   margin: 10px;
 }
 
@@ -485,6 +486,13 @@ footer {
 }
 
 /* ====EXTRAS==== */
+#pantalla-video {
+  width: 30%;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
 #powerbi {
   width: 40%;
   display: block;
@@ -500,13 +508,12 @@ footer {
   margin-right: auto;
 }
 
-.smaller-center {
-  width: 70%;
+#intpack {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 60%;
 }
-
 
 /* ==== FOOTER / REDES ==== */
 /* 
@@ -617,18 +624,26 @@ a {
     width: 100%;
   }
 
-  #litiolatam1 {
+  #ego1 {
     width: 100%;
     margin: 5px;
   }
 
-  #litiolatam2 {
+  #ego2 {
     width: 100%;
     margin: 5px;
   }
 
   #powerbi {
-    width: 100%;
+    width: 80%;
+  }
+
+  #pantalla-video {
+    width: 80%;
+  }
+
+  #intpack { 
+    width: 90%;
   }
 }
 
